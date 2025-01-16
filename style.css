@@ -1,0 +1,42 @@
+
+.header-buttons {
+    position: absolute;
+    top: 10px; /* Jarak dari atas halaman */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+.login-button, .daftar-button {
+    background-color: #FFD700; /* Warna tombol (kuning) */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-button:hover, .daftar-button:hover {
+    background-color: #FFA500; /* Warna saat dihover */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Pastikan elemen utama memenuhi sisa ruang */
+main {
+  flex: 1;
+}
+
+/* Style tambahan untuk footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
